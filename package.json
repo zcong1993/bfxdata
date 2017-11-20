@@ -1,6 +1,6 @@
 {
   "name": "bfxdata",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Currency Pairs data in https://www.bitfinex.com/stats",
   "repository": {
     "url": "zcong1993/bfxdata",
