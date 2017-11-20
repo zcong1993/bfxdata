@@ -1,0 +1,30 @@
+{
+  "name": "bfxdata",
+  "version": "0.0.0",
+  "description": "Currency Pairs data in https://www.bitfinex.com/stats",
+  "repository": {
+    "url": "zcong1993/bfxdata",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo"
+  },
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}
